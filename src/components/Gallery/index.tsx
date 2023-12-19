@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <div className="mt-5 max-w-[1920px] m-auto w-[90%]">
+    <div className="mt-5 max-w-[1920px] m-auto w-[100%]">
            <h2 className="text-4xl text-center font-bold  my-10 font-sans">Gallery</h2>
          <section className="flex justify-between item-center my-12 ">
          {

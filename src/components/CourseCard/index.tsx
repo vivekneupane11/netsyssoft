@@ -10,7 +10,7 @@ export default function CourseCard({
   image: string;
 }) {
   return (
-    <section className="w-[24%] p-5 flex flex-col justify-center items-center cursor-pointer hover:shadow-xl">
+    <section className="w-[22%] p-5 flex flex-col justify-center items-center cursor-pointer hover:shadow-xl">
       <div className="w-full aspect-square relative ">
       <Image src={image} className="rounded-2xl" alt="logo" fill style={{objectFit:'cover'}}/>
       </div>
