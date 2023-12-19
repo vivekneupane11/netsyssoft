@@ -5,8 +5,9 @@ import Footer from "@/components/Footer"
 import Gallery from "@/components/Gallery"
 import MapView from "@/components/Maps"
 import Testimonial from "@/components/Testimonial"
-import VideoGallery from "@/components/VideoGallery"
 import WhyUs from "@/components/WhyUs"
+import dynamic from "next/dynamic"
+const NoSSR = dynamic(() => import('../components/VideoGallery'), { ssr: false })
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
 <About/>
 <WhyUs/>
 <Gallery/>
-<VideoGallery/>
+<NoSSR/>
 <Testimonial/>
 <MapView/>
 <Footer/>
