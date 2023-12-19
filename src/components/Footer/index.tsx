@@ -4,7 +4,7 @@ export default function Footer() {
     
 
 <footer className="bg-white max-w-[1920px] w-full ">
-    <div className="mx-auto w-full max-w-screen-xl">
+    <div className="mx-auto w-full max-w-[1500px]">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 font-roboto">
         <div>
             <h2 className="mb-6 font-roboto text-sm font-semibold text-gray-500 uppercase ">Company</h2>
