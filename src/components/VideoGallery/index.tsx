@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 export default function VideoGallery() {
   return (
-    <div className="mt-5 max-w-[1920px] m-auto w-[90%]">
+    <div className="mt-5">
            <h2 className="text-4xl text-center font-bold  my-10 font-sans">Videos</h2>
          <section className="flex flex-wrap justify-between item-center my-12 ">
          {

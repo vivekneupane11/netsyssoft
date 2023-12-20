@@ -3,7 +3,7 @@ import Card from "../Card";
 
 export default function WhyUs() {
   return (
-    <div className="mt-20 max-w-[1920px] m-auto w-[90%]">
+    <div className="mt-20  w-full">
            <h2 className="text-4xl text-center font-bold  my-10 font-sans">Why Us</h2>
          <section className="flex justify-between item-center my-12 ">
          {

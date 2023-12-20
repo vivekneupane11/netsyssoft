@@ -3,10 +3,10 @@ export default function Footer() {
   return (
     
 
-<footer className="bg-white max-w-[1920px] w-full ">
-    <div className="mx-auto w-full max-w-[1500px]">
-      <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 font-roboto">
-        <div>
+<footer className="bg-white  w-full ">
+    <div className="mx-auto w-[95%]  ">
+      <div className="grid grid-cols-2 gap-8  py-6 lg:py-8 md:grid-cols-4 font-roboto">
+        <div className="flex justify-center items-start flex-col">
             <h2 className="mb-6 font-roboto text-sm font-semibold text-gray-500 uppercase ">Company</h2>
             <ul className="text-gray-500 font-medium ">
                 <li className="mb-4">
@@ -23,7 +23,7 @@ export default function Footer() {
                 </li>
             </ul>
         </div>
-        <div>
+        <div className="flex justify-center items-center flex-col">
             <h2 className="mb-6 font-roboto text-sm font-semibold text-gray-500 uppercase ">Help center</h2>
             <ul className="text-gray-500  font-medium">
                 <li className="mb-4">
@@ -40,7 +40,7 @@ export default function Footer() {
                 </li>
             </ul>
         </div>
-        <div>
+        <div className="flex justify-center items-center flex-col">
             <h2 className="mb-6 font-roboto text-sm font-semibold text-gray-500 uppercase ">Legal</h2>
             <ul className="text-gray-500  font-medium">
                 <li className="mb-4">
@@ -54,7 +54,7 @@ export default function Footer() {
                 </li>
             </ul>
         </div>
-        <div>
+        <div className="flex justify-center items-center flex-col">
             <h2 className="mb-6 font-roboto text-sm font-semibold text-gray-500 uppercase ">Download</h2>
             <ul className="text-gray-500  font-medium">
                 <li className="mb-4">
@@ -74,8 +74,9 @@ export default function Footer() {
     </div>
   
     </div>
-    <div className=" w-full px-[5%] py-6 bg-[#002C5F]  md:flex md:items-center md:justify-between">
-        <span className="text-sm text-gray-100  sm:text-center">© 2023 <a href="https://flowbite.com/">Vivek Neupane</a>. All Rights Reserved.
+    <div className=" py-6 bg-[#002C5F]  md:flex md:items-center md:justify-between">
+       <div className=" w-[95%]   m-auto md:flex md:items-center md:justify-between">
+       <span className="text-sm text-gray-100  sm:text-center">© 2023 <a href="https://flowbite.com/">Vivek Neupane</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a href="#" className="text-gray-100 hover:text-gray-500 ">
@@ -109,6 +110,7 @@ export default function Footer() {
                   <span className="sr-only">Dribbble account</span>
               </a>
         </div>
+       </div>
       </div>
 </footer>
 

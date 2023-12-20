@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between max-w-[1920px] m-auto overflow-x-hidden  ">
     <Banner/>
+<section className="w-[95%] m-auto">
 <Courses/>
 <About/>
 <WhyUs/>
@@ -20,7 +21,9 @@ export default function Home() {
 <NoSSR/>
 <Testimonial/>
 <MapView/>
+</section>
 <Footer/>
+
     </main>
   )
 }
